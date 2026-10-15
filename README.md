@@ -3,6 +3,7 @@
 An automated Python pre-processing pipeline for **Abaqus/CAE**. This script converts raw 3D solid tensile specimen CAD models into partitioned, cleaned 2D midsurface shell models with structured quad meshing and virtual extensometer node sets in a single execution.
 <img width="1389" height="765" alt="grafik" src="https://github.com/user-attachments/assets/42e9fb01-5876-4c53-8105-4fd720c6d6e9" />
 
+
 ---
 
 ## Dimension Reference Guide
@@ -68,5 +69,5 @@ When executed, `run_complete_specimen_pipeline()` performs the following 10 step
 ### Option 2: Via Abaqus Command Line / Kernel
 Run the script directly inside the Abaqus CLI Command Line Interface at the bottom of the CAE window:
 
-```python
-execfile('abaqus_specimen_pipeline.py')
+## Note on Code Availability
+The underlying Python source code and Abaqus scripts for this pipeline are maintained in a private repository due to institutional and research guidelines. Full code access, implementation details, or live demonstrations can be provided upon reasonable request.
